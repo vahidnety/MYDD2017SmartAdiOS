@@ -22,6 +22,7 @@
     float currentLongitude;
     float oldLat ;
     float oldLong;
+    NSMutableData *receivedData;
     
 }
 

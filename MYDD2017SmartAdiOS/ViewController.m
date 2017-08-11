@@ -48,7 +48,7 @@
     NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
     NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[postData length]];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-    [request setURL:[NSURL URLWithString:@"http://www.abcde.com/xyz/login.aspx"]];
+    [request setURL:[NSURL URLWithString:post]];
 
     [request setHTTPMethod:@"POST"];
     [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
@@ -64,26 +64,35 @@
 }
 
 // This method is used to receive the data which we get using post method.
-- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData*)data{}
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData*)data{
+    [receivedData appendData:data];
+}
 
 // This method receives the error report in case of connection is not made to server.
-- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error{}
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error{
+    
+    NSLog(@"error.description=%@",error.description);
+}
 
 // This method is used to process the data after connection has made successfully.
-- (void)connectionDidFinishLoading:(NSURLConnection *)connection{}
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection{
+    NSLog(@"receivedData=%@",receivedData);
+    receivedData=nil;
+    connection=nil;
+    
+}
 
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
-    NSLog(@"%@",locations);
+    //?NSLog(@"%@",locations);
     CLLocation *currentLoc=[locations objectAtIndex:0];
-    NSLog(@"CurrentLoc : %@",currentLoc);
-
     _coordinate=currentLoc.coordinate;
     
     currentLatitude = currentLoc.coordinate.latitude;
     currentLongitude = currentLoc.coordinate.longitude;
     
     if((currentLatitude!=oldLat && currentLongitude!=oldLong )|| (oldLat==0 && oldLong==0)){
+        NSLog(@"CurrentLoc : %@",currentLoc);
         oldLat=currentLatitude;
         oldLong=currentLongitude;
 
