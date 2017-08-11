@@ -24,30 +24,45 @@
         }
 //    }
     [_locationManager startUpdatingLocation];
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
-                                                            longitude:151.20
-                                                                 zoom:6];
-    GMSMapView *mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    oldLat=0;
+    oldLong=0;
+
+}
+
+-(void)locMap{
+    camera = [GMSCameraPosition cameraWithLatitude:currentLatitude
+                                         longitude:currentLongitude
+                                              zoom:17];
+    
+    mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     mapView.myLocationEnabled = YES;
     self.view = mapView;
     
     // Creates a marker in the center of the map.
-    GMSMarker *marker = [[GMSMarker alloc] init];
-    marker.position = CLLocationCoordinate2DMake(-33.86, 151.20);
+    marker_ = [[GMSMarker alloc] init];
+    marker_.position = CLLocationCoordinate2DMake(currentLatitude, currentLongitude);
     //marker.title = @"Sydney";
     //marker.snippet = @"Australia";
-    marker.map = mapView;
-
+    marker_.map = mapView;
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
-    
     NSLog(@"%@",locations);
     CLLocation *currentLoc=[locations objectAtIndex:0];
     NSLog(@"CurrentLoc : %@",currentLoc);
+
     _coordinate=currentLoc.coordinate;
+    
     currentLatitude = currentLoc.coordinate.latitude;
     currentLongitude = currentLoc.coordinate.longitude;
+    
+    if((currentLatitude!=oldLat && currentLongitude!=oldLong )|| (oldLat==0 && oldLong==0)){
+        oldLat=currentLatitude;
+        oldLong=currentLongitude;
+
+        [self performSelector:@selector(locMap) withObject:self afterDelay:2.0];
+    }
+
 }
 
 
@@ -67,7 +82,10 @@
     NSLog(@"%f %f",latitude,longitude);
     marker_.icon = [UIImage imageNamed:@"marker"];
     marker_.snippet = @"Address";
-    marker_.map = mapView_;
+    marker_.map = mapView;
+    
+    
+
 
     
 }

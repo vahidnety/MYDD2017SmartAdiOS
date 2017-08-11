@@ -14,11 +14,14 @@
 
 @interface ViewController : UIViewController <CLLocationManagerDelegate> {
     
-    GMSMapView *mapView_;
+    GMSMapView *mapView;
     GMSMarker *marker_;
+    GMSCameraPosition *camera;
     
     float currentLatitude;
     float currentLongitude;
+    float oldLat ;
+    float oldLong;
     
 }
 
