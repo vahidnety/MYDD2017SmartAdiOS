@@ -7,9 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GoogleMaps/GoogleMaps.h>
 
-@interface ViewController : UIViewController
+@import GooglePlaces;
 
 
-@end
+@interface ViewController : UIViewController <CLLocationManagerDelegate> {
+    
+    GMSMapView *mapView_;
+    GMSMarker *marker_;
+    
+    float currentLatitude;
+    float currentLongitude;
+    
+}
 
+@property(nonatomic,retain) CLLocationManager *locationManager;
+@property (nonatomic)CLLocationCoordinate2D coordinate;
+
+@end;

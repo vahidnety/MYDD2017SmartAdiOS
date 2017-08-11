@@ -16,6 +16,7 @@
 		3D5B00C41F3DE10A008BD0BC /* MYDD2017SmartAdiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B00C31F3DE10A008BD0BC /* MYDD2017SmartAdiOSTests.m */; };
 		3D5B00CF1F3DE10A008BD0BC /* MYDD2017SmartAdiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B00CE1F3DE10A008BD0BC /* MYDD2017SmartAdiOSUITests.m */; };
 		3D5B00DE1F3DE572008BD0BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5B00DD1F3DE572008BD0BC /* MapKit.framework */; };
+		3DE945CE1F3DF5940018C52B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE945CD1F3DF5940018C52B /* Default-568h@2x.png */; };
 		B4436030C0E22564890A8ED1 /* Pods_MYDD2017SmartAdiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785D6EC3658C3E06C8F7DBE9 /* Pods_MYDD2017SmartAdiOSTests.framework */; };
 		C1C502AB6F2445544161F315 /* Pods_MYDD2017SmartAdiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70A7F44FEA61329EEE722B6 /* Pods_MYDD2017SmartAdiOS.framework */; };
 		F6B2621122992D071F9ADA83 /* Pods_MYDD2017SmartAdiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE07EF41F0E7446CB46B8852 /* Pods_MYDD2017SmartAdiOSUITests.framework */; };
@@ -57,6 +58,7 @@
 		3D5B00CE1F3DE10A008BD0BC /* MYDD2017SmartAdiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYDD2017SmartAdiOSUITests.m; sourceTree = "<group>"; };
 		3D5B00D01F3DE10A008BD0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5B00DD1F3DE572008BD0BC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3DE945CD1F3DF5940018C52B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		41277C495CA2C35A04FB4552 /* Pods-MYDD2017SmartAdiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYDD2017SmartAdiOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYDD2017SmartAdiOSUITests/Pods-MYDD2017SmartAdiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		785D6EC3658C3E06C8F7DBE9 /* Pods_MYDD2017SmartAdiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYDD2017SmartAdiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D0D0DE4874F312A4899892 /* Pods-MYDD2017SmartAdiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYDD2017SmartAdiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYDD2017SmartAdiOSTests/Pods-MYDD2017SmartAdiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		3D5B009D1F3DE10A008BD0BC = {
 			isa = PBXGroup;
 			children = (
+				3DE945CD1F3DF5940018C52B /* Default-568h@2x.png */,
 				3D5B00A81F3DE10A008BD0BC /* MYDD2017SmartAdiOS */,
 				3D5B00C21F3DE10A008BD0BC /* MYDD2017SmartAdiOSTests */,
 				3D5B00CD1F3DE10A008BD0BC /* MYDD2017SmartAdiOSUITests */,
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5B00B91F3DE10A008BD0BC /* LaunchScreen.storyboard in Resources */,
+				3DE945CE1F3DF5940018C52B /* Default-568h@2x.png in Resources */,
 				3D5B00B61F3DE10A008BD0BC /* Assets.xcassets in Resources */,
 				3D5B00B41F3DE10A008BD0BC /* Main.storyboard in Resources */,
 			);
@@ -727,6 +731,7 @@
 				3D5B00D51F3DE10A008BD0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D5B00D61F3DE10A008BD0BC /* Build configuration list for PBXNativeTarget "MYDD2017SmartAdiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -735,6 +740,7 @@
 				3D5B00D81F3DE10A008BD0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D5B00D91F3DE10A008BD0BC /* Build configuration list for PBXNativeTarget "MYDD2017SmartAdiOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -743,6 +749,7 @@
 				3D5B00DB1F3DE10A008BD0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
