@@ -44,7 +44,34 @@
     //marker.title = @"Sydney";
     //marker.snippet = @"Australia";
     marker_.map = mapView;
+    NSString *post = [NSString stringWithFormat:@"http://192.168.2.9:8080/geo?id=%@&lat=%f&lng=%f",@"1",currentLatitude,currentLongitude];
+    NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+    NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[postData length]];
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+    [request setURL:[NSURL URLWithString:@"http://www.abcde.com/xyz/login.aspx"]];
+
+    [request setHTTPMethod:@"POST"];
+    [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
+    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+    [request setHTTPBody:postData];
+    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+    if(conn) {
+        NSLog(@"Connection Successful");
+    } else {
+        NSLog(@"Connection could not be made");
+    }
+    
 }
+
+// This method is used to receive the data which we get using post method.
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData*)data{}
+
+// This method receives the error report in case of connection is not made to server.
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error{}
+
+// This method is used to process the data after connection has made successfully.
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection{}
+
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
     NSLog(@"%@",locations);
@@ -66,29 +93,29 @@
 }
 
 
--(void)plotMarkerForLatitude:(float)latitude andLongitude:(float)longitude {
-    
-    // Now create maker on current location
-    if (marker_ == NULL) {
-        marker_ = [[GMSMarker alloc] init];
-    }
-    CLLocationCoordinate2D target =
-    CLLocationCoordinate2DMake(latitude, longitude);
-    
-    marker_.position = target;
-    marker_.title = @"title";
-    
-    marker_.appearAnimation = kGMSMarkerAnimationPop;
-    NSLog(@"%f %f",latitude,longitude);
-    marker_.icon = [UIImage imageNamed:@"marker"];
-    marker_.snippet = @"Address";
-    marker_.map = mapView;
-    
-    
-
-
-    
-}
+//-(void)plotMarkerForLatitude:(float)latitude andLongitude:(float)longitude {
+//    
+//    // Now create maker on current location
+//    if (marker_ == NULL) {
+//        marker_ = [[GMSMarker alloc] init];
+//    }
+//    CLLocationCoordinate2D target =
+//    CLLocationCoordinate2DMake(latitude, longitude);
+//    
+//    marker_.position = target;
+//    marker_.title = @"title";
+//    
+//    marker_.appearAnimation = kGMSMarkerAnimationPop;
+//    NSLog(@"%f %f",latitude,longitude);
+//    marker_.icon = [UIImage imageNamed:@"marker"];
+//    marker_.snippet = @"Address";
+//    marker_.map = mapView;
+//    
+//    
+//
+//
+//    
+//}
 
 //- (void)loadView {
 //    // Create a GMSCameraPosition that tells the map to display the
@@ -107,5 +134,7 @@
 //    marker.snippet = @"Australia";
 //    marker.map = mapView;
 //}
+
+
 
 @end
