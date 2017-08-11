@@ -1,0 +1,6 @@
+framework module Pods_MYDD2017SmartAdiOS {
+  umbrella header "Pods-MYDD2017SmartAdiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -16,6 +16,9 @@
 		3D5B00C41F3DE10A008BD0BC /* MYDD2017SmartAdiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B00C31F3DE10A008BD0BC /* MYDD2017SmartAdiOSTests.m */; };
 		3D5B00CF1F3DE10A008BD0BC /* MYDD2017SmartAdiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B00CE1F3DE10A008BD0BC /* MYDD2017SmartAdiOSUITests.m */; };
 		3D5B00DE1F3DE572008BD0BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5B00DD1F3DE572008BD0BC /* MapKit.framework */; };
+		B4436030C0E22564890A8ED1 /* Pods_MYDD2017SmartAdiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785D6EC3658C3E06C8F7DBE9 /* Pods_MYDD2017SmartAdiOSTests.framework */; };
+		C1C502AB6F2445544161F315 /* Pods_MYDD2017SmartAdiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70A7F44FEA61329EEE722B6 /* Pods_MYDD2017SmartAdiOS.framework */; };
+		F6B2621122992D071F9ADA83 /* Pods_MYDD2017SmartAdiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE07EF41F0E7446CB46B8852 /* Pods_MYDD2017SmartAdiOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		060B832024EDE046BEF1BF99 /* Pods-MYDD2017SmartAdiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYDD2017SmartAdiOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MYDD2017SmartAdiOSUITests/Pods-MYDD2017SmartAdiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3D5B00A61F3DE10A008BD0BC /* MYDD2017SmartAdiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYDD2017SmartAdiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5B00AA1F3DE10A008BD0BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D5B00AC1F3DE10A008BD0BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +57,14 @@
 		3D5B00CE1F3DE10A008BD0BC /* MYDD2017SmartAdiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYDD2017SmartAdiOSUITests.m; sourceTree = "<group>"; };
 		3D5B00D01F3DE10A008BD0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5B00DD1F3DE572008BD0BC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		41277C495CA2C35A04FB4552 /* Pods-MYDD2017SmartAdiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYDD2017SmartAdiOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYDD2017SmartAdiOSUITests/Pods-MYDD2017SmartAdiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		785D6EC3658C3E06C8F7DBE9 /* Pods_MYDD2017SmartAdiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYDD2017SmartAdiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D0D0DE4874F312A4899892 /* Pods-MYDD2017SmartAdiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYDD2017SmartAdiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYDD2017SmartAdiOSTests/Pods-MYDD2017SmartAdiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B41C056C0399094CF313E31A /* Pods-MYDD2017SmartAdiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYDD2017SmartAdiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYDD2017SmartAdiOS/Pods-MYDD2017SmartAdiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CE07EF41F0E7446CB46B8852 /* Pods_MYDD2017SmartAdiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYDD2017SmartAdiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4BD1C2E65BD8B116A5C367 /* Pods-MYDD2017SmartAdiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYDD2017SmartAdiOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MYDD2017SmartAdiOSTests/Pods-MYDD2017SmartAdiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6BAF5923D63D57B716A6C4F /* Pods-MYDD2017SmartAdiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYDD2017SmartAdiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MYDD2017SmartAdiOS/Pods-MYDD2017SmartAdiOS.release.xcconfig"; sourceTree = "<group>"; };
+		F70A7F44FEA61329EEE722B6 /* Pods_MYDD2017SmartAdiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYDD2017SmartAdiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5B00DE1F3DE572008BD0BC /* MapKit.framework in Frameworks */,
+				C1C502AB6F2445544161F315 /* Pods_MYDD2017SmartAdiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4436030C0E22564890A8ED1 /* Pods_MYDD2017SmartAdiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B2621122992D071F9ADA83 /* Pods_MYDD2017SmartAdiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +104,7 @@
 				3D5B00CD1F3DE10A008BD0BC /* MYDD2017SmartAdiOSUITests */,
 				3D5B00A71F3DE10A008BD0BC /* Products */,
 				3D5B00DC1F3DE572008BD0BC /* Frameworks */,
+				70463F7100E3F2D1008E5314 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,8 +164,24 @@
 			isa = PBXGroup;
 			children = (
 				3D5B00DD1F3DE572008BD0BC /* MapKit.framework */,
+				F70A7F44FEA61329EEE722B6 /* Pods_MYDD2017SmartAdiOS.framework */,
+				785D6EC3658C3E06C8F7DBE9 /* Pods_MYDD2017SmartAdiOSTests.framework */,
+				CE07EF41F0E7446CB46B8852 /* Pods_MYDD2017SmartAdiOSUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70463F7100E3F2D1008E5314 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B41C056C0399094CF313E31A /* Pods-MYDD2017SmartAdiOS.debug.xcconfig */,
+				F6BAF5923D63D57B716A6C4F /* Pods-MYDD2017SmartAdiOS.release.xcconfig */,
+				81D0D0DE4874F312A4899892 /* Pods-MYDD2017SmartAdiOSTests.debug.xcconfig */,
+				CE4BD1C2E65BD8B116A5C367 /* Pods-MYDD2017SmartAdiOSTests.release.xcconfig */,
+				41277C495CA2C35A04FB4552 /* Pods-MYDD2017SmartAdiOSUITests.debug.xcconfig */,
+				060B832024EDE046BEF1BF99 /* Pods-MYDD2017SmartAdiOSUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D5B00D31F3DE10A008BD0BC /* Build configuration list for PBXNativeTarget "MYDD2017SmartAdiOS" */;
 			buildPhases = (
+				38DCF8488ED61D725032028F /* [CP] Check Pods Manifest.lock */,
 				3D5B00A21F3DE10A008BD0BC /* Sources */,
 				3D5B00A31F3DE10A008BD0BC /* Frameworks */,
 				3D5B00A41F3DE10A008BD0BC /* Resources */,
+				B96B2D0C5D93F97AE61D6A10 /* [CP] Embed Pods Frameworks */,
+				9E5EBF648CF7A338F33EF7BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D5B00D61F3DE10A008BD0BC /* Build configuration list for PBXNativeTarget "MYDD2017SmartAdiOSTests" */;
 			buildPhases = (
+				A5691575B3F95532CB2CFA41 /* [CP] Check Pods Manifest.lock */,
 				3D5B00BB1F3DE10A008BD0BC /* Sources */,
 				3D5B00BC1F3DE10A008BD0BC /* Frameworks */,
 				3D5B00BD1F3DE10A008BD0BC /* Resources */,
+				A5E1BB86BFB870B62ACCD00F /* [CP] Embed Pods Frameworks */,
+				7653AB6590D4ADA442E5E138 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D5B00D91F3DE10A008BD0BC /* Build configuration list for PBXNativeTarget "MYDD2017SmartAdiOSUITests" */;
 			buildPhases = (
+				89BDEC7D63BBE23BAAB3DF3F /* [CP] Check Pods Manifest.lock */,
 				3D5B00C61F3DE10A008BD0BC /* Sources */,
 				3D5B00C71F3DE10A008BD0BC /* Frameworks */,
 				3D5B00C81F3DE10A008BD0BC /* Resources */,
+				78927C515B18670B6E634E40 /* [CP] Embed Pods Frameworks */,
+				80AA7D55A213BFAF9D59F273 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,6 +326,157 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38DCF8488ED61D725032028F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MYDD2017SmartAdiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7653AB6590D4ADA442E5E138 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MYDD2017SmartAdiOSTests/Pods-MYDD2017SmartAdiOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78927C515B18670B6E634E40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MYDD2017SmartAdiOSUITests/Pods-MYDD2017SmartAdiOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80AA7D55A213BFAF9D59F273 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MYDD2017SmartAdiOSUITests/Pods-MYDD2017SmartAdiOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89BDEC7D63BBE23BAAB3DF3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MYDD2017SmartAdiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5EBF648CF7A338F33EF7BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MYDD2017SmartAdiOS/Pods-MYDD2017SmartAdiOS-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MYDD2017SmartAdiOS/Pods-MYDD2017SmartAdiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5691575B3F95532CB2CFA41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MYDD2017SmartAdiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E1BB86BFB870B62ACCD00F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MYDD2017SmartAdiOSTests/Pods-MYDD2017SmartAdiOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B96B2D0C5D93F97AE61D6A10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MYDD2017SmartAdiOS/Pods-MYDD2017SmartAdiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D5B00A21F3DE10A008BD0BC /* Sources */ = {
@@ -442,6 +634,7 @@
 		};
 		3D5B00D41F3DE10A008BD0BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41C056C0399094CF313E31A /* Pods-MYDD2017SmartAdiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 76US5KWZ6M;
@@ -454,6 +647,7 @@
 		};
 		3D5B00D51F3DE10A008BD0BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6BAF5923D63D57B716A6C4F /* Pods-MYDD2017SmartAdiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 76US5KWZ6M;
@@ -466,6 +660,7 @@
 		};
 		3D5B00D71F3DE10A008BD0BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81D0D0DE4874F312A4899892 /* Pods-MYDD2017SmartAdiOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MYDD2017SmartAdiOSTests/Info.plist;
@@ -478,6 +673,7 @@
 		};
 		3D5B00D81F3DE10A008BD0BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4BD1C2E65BD8B116A5C367 /* Pods-MYDD2017SmartAdiOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MYDD2017SmartAdiOSTests/Info.plist;
@@ -490,6 +686,7 @@
 		};
 		3D5B00DA1F3DE10A008BD0BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41277C495CA2C35A04FB4552 /* Pods-MYDD2017SmartAdiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MYDD2017SmartAdiOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -501,6 +698,7 @@
 		};
 		3D5B00DB1F3DE10A008BD0BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060B832024EDE046BEF1BF99 /* Pods-MYDD2017SmartAdiOSUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MYDD2017SmartAdiOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -1,0 +1,6 @@
+framework module Pods_MYDD2017SmartAdiOSUITests {
+  umbrella header "Pods-MYDD2017SmartAdiOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
